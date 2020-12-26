@@ -45,6 +45,7 @@ class FamilyStructure:
         
         member['last_name'] = self.last_name
         member['id'] = self._generateId()
+        
         self._members.append(member)
         # fill this method and update the return
         return None
